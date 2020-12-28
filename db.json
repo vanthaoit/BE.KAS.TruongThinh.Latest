@@ -1,0 +1,200 @@
+{
+  "tasks": [
+    {
+      "id": 1
+    },
+    {
+      "title": "Learning reactjs",
+      "description": "Redux form",
+      "status": 2,
+      "id": 5,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "title": "Learning SASS lon",
+      "description": "ok",
+      "status": 1,
+      "id": 6
+    },
+    {
+      "title": "Learning Java",
+      "description": "OOP",
+      "status": 1,
+      "id": 7,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "title": "Learning english ",
+      "description": "123 890",
+      "status": 0,
+      "id": 8
+    },
+    {
+      "title": "Play game 4",
+      "description": "With my friend",
+      "status": 1,
+      "id": 9,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "title": "Learning Java cai lon",
+      "description": "ok 8",
+      "status": 1,
+      "id": 10
+    },
+    {
+      "title": "Play game",
+      "description": "FIFA",
+      "status": 2,
+      "id": 11,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "title": "Learning english90",
+      "description": "ok 8",
+      "status": 1,
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "name": "upload hinh",
+      "Alias": "upload hinh",
+      "moreImages": "C:\\fakepath\\10.JPG",
+      "content": "<p>nnnn77</p>",
+      "description": "<p>mo ta</p>",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "status": "true",
+      "id": 5
+    },
+    {
+      "name": "update ok",
+      "Alias": "update ok",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "status": "true",
+      "id": 6
+    },
+    {
+      "name": "băng chuyền nhôm",
+      "Alias": "products reactjs edit 7",
+      "content": "<p>​<span style=\"color: rgb(34, 34, 34); font-family: arial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 250, 246); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Phát ngôn viên Ortagus tại một cuộc họp báo ở thủ đô Washington hồi tháng 6/2019. Ảnh:<span>&nbsp;</span></span><em>AP</em><span style=\"color: rgb(34, 34, 34); font-family: arial; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 250, 246); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">.</span>​</p><p>Thảo</p>",
+      "description": "<p><span style=\"color: rgb(34, 34, 34); font-family: arial; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(252, 250, 246); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">\"Cuộc tập trận của Trung Quốc trên Biển Đông vi phạm cam kết của họ theo Tuyên bố ứng xử của các bên ở Biển Đông (DOC) ký hi năm 2002. Mỹ sát cánh cùng những người bạn ở Đông Nam Á và phản đối những tuyên bố phi pháp của Trung Quốc\", phát ngôn viên Bộ Ngoại giao Mỹ Morgan Ortagus viết trên Twitter hôm 3/7.</span></p>",
+      "homeFlat": "false",
+      "hotFlat": "true",
+      "status": "false",
+      "id": 7
+    },
+    {
+      "name": "products reactjs",
+      "content": "products english content",
+      "description": "123",
+      "status": 0,
+      "id": 8,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "name": "products reactjs",
+      "content": "Play game 4 content",
+      "description": "With my friend",
+      "status": 1,
+      "id": 9,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "name": "products reactjs",
+      "content": "products Java cai lon content",
+      "description": "ok",
+      "status": 0,
+      "id": 10,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "name": "products reactjs",
+      "content": "Play game content",
+      "description": "FIFA",
+      "status": 2,
+      "id": 11,
+      "homeFlat": true,
+      "hotFlat": false
+    },
+    {
+      "name": "lon koi",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 14
+    },
+    {
+      "name": "add l",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 15
+    },
+    {
+      "name": "add lll",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 16
+    },
+    {
+      "name": "lon up",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 17
+    },
+    {
+      "name": "lon m",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 18
+    },
+    {
+      "name": "6",
+      "content": "6",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 19
+    },
+    {
+      "name": "update active cac 24",
+      "content": "update active cac 24",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 20
+    },
+    {
+      "name": "update active cac 2421",
+      "content": "update active cac 24",
+      "status": "true",
+      "homeFlat": "true",
+      "hotFlat": "true",
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "id": 23
+    }
+  ]
+}
