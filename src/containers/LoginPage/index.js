@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Card, CardContent, Typography, Button } from '@material-ui/core';
@@ -6,39 +7,47 @@ import { withStyles } from '@material-ui/styles';
 import { Field, reduxForm } from 'redux-form';
 import { bindActionCreators, compose } from 'redux';
 import PropTypes from 'prop-types';
+import { parseJSON } from 'utils/tools/JSONConvert';
 import renderTextField from '../../components/FormHelper/TextField';
 import styles from './styles';
 import validate from './validate';
 import * as authActions from '../../actions/auth';
 
-class LoginPage extends Component {
-  handleSubmitForm = values => {
-    if (values) {
-      const { email, password } = values;
-      // const { authActions } = this.props;
-      // const { login } = authActions;
-      // if (login) {
-      //   login(email, password);
-      // }
+class LoginPage extends React.Component {
+  handleSubmitFormLogin = data => {
+    // eslint-disable-next-line no-debugger
+    debugger;
+    const { target } = data;
+    const requestData = parseJSON(target);
+    const email = requestData.email === 'vietnamthaotranvan@gmail.com';
+    const pass = requestData.password === 'Admin@2021';
+    if (email && pass) {
+      sessionStorage.setItem(
+        'TruongThinhPassword',
+        `${requestData.email}ooo0ooo${requestData.password}`,
+      );
+      // eslint-disable-next-line react/destructuring-assignment
+      this.props.history.push('/');
     } else {
       console.log('data is not valid');
     }
   };
 
   render() {
-    const { classes, handleSubmit, invalid, submitting } = this.props;
+    const { classes, handleSubmit, invalid } = this.props;
+    const abc = 1;
     return (
-      <div className={classes.background}>
-        <div className={classes.login}>
-          <Card>
-            <CardContent>
-              <form onSubmit={handleSubmit(this.handleSubmitForm)}>
-                <div className="text-xs-center pb-xs">
+      <form onSubmit={this.handleSubmitFormLogin}>
+        <div className={classes.background}>
+          <div className={classes.login}>
+            <Card>
+              <CardContent>
+                {/* <div className="text-xs-center pb-xs">
                   <img src="/static/images/logo-dark.svg" alt="" />
                   <Typography variant="caption">
                     Sign in with your app id to continue.
                   </Typography>
-                </div>
+                </div> */}
                 <Field
                   id="email"
                   label="Email"
@@ -63,7 +72,7 @@ class LoginPage extends Component {
                   color="primary"
                   fullWidth
                   type="submit"
-                  disabled={invalid || submitting}
+                  disabled={invalid}
                 >
                   Login
                 </Button>
@@ -72,11 +81,11 @@ class LoginPage extends Component {
                     <Button>Create new account.</Button>
                   </Link>
                 </div>
-              </form>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
         </div>
-      </div>
+      </form>
     );
   }
 }
@@ -95,7 +104,7 @@ const mapDispatchToProps = dispatch => ({
 
 const withConnect = connect(
   mapStateToProps,
-  mapDispatchToProps,
+  // mapDispatchToProps,
 );
 LoginPage.propTypes = {
   classes: PropTypes.object,

@@ -27,10 +27,12 @@ import PropTypes from 'prop-types';
 import { HTMLComponent } from 'react-typescript-raw-html';
 import { Fab, CardActions, Icon } from '@material-ui/core';
 import { withStyles } from '@material-ui/styles';
+import SessionAuthen from '../../../utils/commons/Authentications/sessionAuthen';
 import styles from './styles';
 
 class ProductPage extends React.Component {
   componentWillMount() {
+    SessionAuthen.validateSession();
     const { productActionCreators } = this.props;
     const { fetchListProduct } = productActionCreators;
     fetchListProduct();

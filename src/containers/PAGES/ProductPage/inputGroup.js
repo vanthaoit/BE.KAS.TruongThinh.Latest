@@ -1,3 +1,4 @@
+/* eslint-disable spaced-comment */
 /* eslint-disable radix */
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable react/self-closing-comp */
@@ -152,11 +153,14 @@ class InputGroupPage extends React.Component {
     if (type === 'single') this.setState({ uploadingSingle: true });
     else this.setState({ uploading: true });
 
-    fetch(`https://apiservice.truongthinhmanufacture.com/api/Product/UploadImage`, {
-    //fetch(`http://localhost:3500/api/Product/UploadImage`, {
-      method: 'POST',
-      body: formData,
-    })
+    fetch(
+      `https://apiservice.truongthinhmanufacture.com/api/Product/UploadImage`,
+      {
+        //fetch(`http://localhost:3500/api/Product/UploadImage`, {
+        method: 'POST',
+        body: formData,
+      },
+    )
       .then(res => {
         if (!res.ok) {
           throw res;
