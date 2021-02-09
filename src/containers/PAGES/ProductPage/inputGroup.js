@@ -152,8 +152,8 @@ class InputGroupPage extends React.Component {
     if (type === 'single') this.setState({ uploadingSingle: true });
     else this.setState({ uploading: true });
 
-    fetch(`https://api.moitruongnkp.com/api/Product/UploadImage`, {
-      // fetch(`http://localhost:3500/api/Product/UploadImage`, {
+    fetch(`https://apiservice.truongthinhmanufacture.com/api/Product/UploadImage`, {
+    //fetch(`http://localhost:3500/api/Product/UploadImage`, {
       method: 'POST',
       body: formData,
     })

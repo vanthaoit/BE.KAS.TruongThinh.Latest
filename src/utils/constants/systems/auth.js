@@ -1,5 +1,5 @@
-export const API_ENDPOINT = 'https://api.moitruongnkp.com/api';
-
+export const API_ENDPOINT = 'https://apiservice.truongthinhmanufacture.com/api';
+//export const API_ENDPOINT = 'http://localhost:3500/api';
 export const SIGNUP = 'SIGNUP';
 export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
 export const SIGNUP_FAILED = 'SIGNUP_FAILED';
